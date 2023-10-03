@@ -24,6 +24,7 @@
     background: black;
     height: 95%;
     padding: 10px 30px;
+    color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
