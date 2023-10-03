@@ -5,7 +5,7 @@ import { useState } from 'react'
 export default function Demon() {
   const [demons, setDemons] = useState(Demons)
   console.log(Demons)
-  const  id   = 3
+  const  id   = 9
   return (
     <>
     <div className="single_demon_wrapper">
@@ -18,11 +18,16 @@ export default function Demon() {
       <div className="single_demon_name">
         {demons[id].name}
       </div>
-      <img src={`/${demons[id].image}`} className="demon-img" alt={demons[id].name}/>
+      <img src={`/${demons[id].image}`} className="single_demon_img" alt={demons[id].name}/>
      
     </div>
-    <div className="single_demon_description">
     
+    <div className="single_demon_description">
+    <p class="description_title">Description:</p>
+
+      <div className="descrip_wrap">
+        <div className="descrip" ><div dangerouslySetInnerHTML={{__html: demons[id].description}} /></div>
+        </div>
     </div>
     </div>
     
