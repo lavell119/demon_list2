@@ -22,14 +22,13 @@
     width: 500px;
     background: rgb(34, 34, 34);
     background: black;
-    height: 95%;
+    height: 75%;
     padding: 10px 30px;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    margin-bottom: 50px;
     margin: auto;
     border-left: 2px solid crimson ;
     border-right: 2px solid crimson ;
@@ -43,4 +42,25 @@
     height: 20px;
     text-align: center;
     cursor: pointer;
+}
+
+.single_demon_name {
+    font-size: 18px;
+    color: white;
+    height: 70px;
+    width: 100%;
+    font-size: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.single_demon_description {
+    background: crimson;
+    width: 100vw;
+    min-height: 20%;
+}
+
+.single_demon_wrapper {
+    height: 100%;
 }
