@@ -21,6 +21,7 @@
     height: 65%;
     background: rgb(0, 0, 0);
     width: 100%;
+    position: sticky;
 }
 
 .single_demon_content {
@@ -45,7 +46,7 @@
     color: crimson;
     background: rgb(0, 0, 0);
     margin-left: 10px;
-    height: 20px;
+    height: 24px;
     text-align: center;
     cursor: pointer;
 }
@@ -64,7 +65,7 @@
 
 
 .single_demon_description {
-    border-top: 3px solid rgb(73, 73, 73);
+    /* border-top: 3px solid rgb(73, 73, 73); */
     width: 100%;
     display: flex;
     align-items: center;
