@@ -1,11 +1,13 @@
 import React from 'react'
 import Demons from './finaldemonlist2.json'
 import { useState } from 'react'
+import { useParams } from 'react-router-dom'
+
 
 export default function Demon() {
+  const { id  } = useParams()
   const [demons, setDemons] = useState(Demons)
   console.log(Demons)
-  const id  = 211
   return (
     <>
     <div className="single_demon_wrapper">

@@ -15,7 +15,7 @@ export default function App() {
         >
         </Route>
         <Route 
-          exact path="/demon"
+          exact path="/demon/:id"
           element={<Demon />}
         >
         </Route>

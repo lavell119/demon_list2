@@ -9,7 +9,7 @@ export default function DemonList() {
         {demons.map(demon=>
             <div className="demon-snippet" key={demons.indexOf(demon)}>
                 <div className="snippet-left">
-                    <img src={ demon.image } alt="" />
+                    <img class = "demonlist_img"src={ demon.image } alt="" />
                     
                   {/* <img src={ IMAGES.abbadon } alt="" /> */}
                 </div>
