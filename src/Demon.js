@@ -2,7 +2,7 @@ import React from 'react'
 import Demons from './finaldemonlist2.json'
 import { useState } from 'react'
 import { useParams } from 'react-router-dom'
-
+import { Link } from 'react-router-dom'
 
 export default function Demon() {
   const { id  } = useParams()
@@ -13,7 +13,9 @@ export default function Demon() {
     <div className="single_demon_wrapper">
     <div className="single_demon_header">
       
-        <div className="back_btn">Back</div>
+        <div className="back_btn">
+        <Link to={'../'}>Back</Link>
+        </div>
       
     </div>
     <div className="single_demon_content_wrap">
