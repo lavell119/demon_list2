@@ -5,7 +5,9 @@ import { Link } from 'react-router-dom'
 export default function DemonList() {
     const [demons, setDemons] = useState(Demons)
     return (
-        <div>
+        <div className="demon-list">
+          <h1>Demon List</h1>
+          <div className="search">Search:<input></input></div>
         {demons.map(demon=>
             <div className="demon-snippet" key={demons.indexOf(demon)}>
                 <div className="snippet-left">

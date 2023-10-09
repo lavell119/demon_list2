@@ -135,3 +135,33 @@
 .demonlist_img {
     height: 100px;
 }
+
+.demon-snippet {
+    border-bottom: 1px solid rgb(100, 100, 100);
+    padding: 0 20%;
+    background: black;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.demon-list {
+    background: black;
+    width: 100%;
+    height: 100%;
+}
+
+.demon-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.demon-list h1 {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.search {
+    text-align: center;
+    color: white;
+}
