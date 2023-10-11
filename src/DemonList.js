@@ -3,11 +3,15 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom'
 
 export default function DemonList() {
+    let searchPhrase
+    function search(e){
+      searchPhrase=e.target.value
+    }
     const [demons, setDemons] = useState(Demons)
     return (
         <div className="demon-list">
           <h1>Demon List</h1>
-          <div className="search">Search:<input></input></div>
+          <div className="search">{searchPhrase}<input onChange={search()}></input></div>
         {demons.map(demon=>
             <div className="demon-snippet" key={demons.indexOf(demon)}>
                 <div className="snippet-left">
