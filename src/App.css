@@ -165,3 +165,10 @@
     text-align: center;
     color: white;
 }
+
+.search input {
+    height: 22px;
+    width: 200px;
+    border: none;
+    border-bottom: 2px solid grey;
+}
