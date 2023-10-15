@@ -8,6 +8,8 @@ export default function DemonList() {
     function search(e){
       setSearchPhrase(e.target.value)
       console.log('searchPhrase= ', searchPhrase)
+      let regex='/'+searchPhrase+'/'
+      console.log("regex= ", regex)
     }
     
     return (
