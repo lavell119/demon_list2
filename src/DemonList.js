@@ -6,9 +6,10 @@ export default function DemonList() {
     const [searchPhrase, setSearchPhrase] = useState('')
     const [demons, setDemons] = useState(Demons)
     function search(e){
-      setSearchPhrase(e.target.value)
-      console.log('searchPhrase= ', searchPhrase)
-      let regex='/'+searchPhrase+'/'
+      let phrase = e.target.value
+      setSearchPhrase(phrase)
+      console.log('searchPhrase= ', phrase)
+      let regex='/'+phrase+'/'
       console.log("regex= ", regex)
     }
     
