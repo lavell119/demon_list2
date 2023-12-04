@@ -28,9 +28,9 @@ export default function Demon() {
       <div className="single_demon_description">
       <div className='single_demon_description_wrap'>
 
-        <div className="descrip_wrap">
+        {/* <div className="descrip_wrap"> */}
           <div className="descrip" ><div dangerouslySetInnerHTML={{__html: demons[id].description}} /></div>
-          </div>
+          {/* </div> */}
       </div>
       </div>
       </div>

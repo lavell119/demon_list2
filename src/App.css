@@ -20,7 +20,6 @@
 .single_demon_content_wrap {
     height: 95%;
     background: rgb(0, 0, 0);
-    background: yellow;
     width: 100%;
     position: sticky;
 }
@@ -29,7 +28,6 @@
     width: 700px;
     background: rgb(34, 34, 34);
     background: black;
-    background: purple;
 
     height: 100%;
     padding: 10px 30px;
@@ -43,7 +41,7 @@
 }
 
 .single_demon_bottom_content {
-    background: gold;
+    background: black;
     display: flex;
     height: 500px;
 }
@@ -85,10 +83,9 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin-bottom: 59px;
     overflow-y: auto;
     flex-direction: column;
-    background: crimson;
+    background: black;
     gap: 10px;
     color: crimson;
     color: black;
@@ -101,7 +98,6 @@
 
 .descrip  {
     margin: auto;
-    line-height: 1.6;
     overflow-y: auto;
     margin-bottom: 10px;
     width: 90%;
@@ -130,9 +126,8 @@
 
 .single_demon_description_wrap {
     background: black;
+   
     color: crimson;
-    padding-top: 15px;
-    height: 500px;
     width: 350px;
 
 }
