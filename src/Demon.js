@@ -23,14 +23,9 @@ export default function Demon() {
       <div className="single_demon_name">
         {demons[id].name}
       </div>
+      <div className="single_demon_bottom_content">
       <img src={`/${demons[id].image}`} className="single_demon_img" alt={demons[id].name}/>
-     
-    </div>
-    </div>
-
-    
-    
-    <div className="single_demon_description">
+      <div className="single_demon_description">
       <div className='single_demon_description_wrap'>
 
         <div className="descrip_wrap">
@@ -38,7 +33,15 @@ export default function Demon() {
           </div>
       </div>
       </div>
+      </div>
+      
     </div>
+    </div>
+    </div>
+
+    
+    
+    
     
    
     </>

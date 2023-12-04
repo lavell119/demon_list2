@@ -18,27 +18,34 @@
 }
 
 .single_demon_content_wrap {
-    height: 65%;
+    height: 95%;
     background: rgb(0, 0, 0);
+    background: yellow;
     width: 100%;
     position: sticky;
 }
 
 .single_demon_content {
-    width: 500px;
+    width: 700px;
     background: rgb(34, 34, 34);
     background: black;
+    background: purple;
+
     height: 100%;
     padding: 10px 30px;
     color: white;
-    display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     margin: auto;
     /* border-left: 2px solid rgb(75, 75, 75) ;
     border-right: 2px solid rgb(75, 75, 75) ; */
 
+}
+
+.single_demon_bottom_content {
+    background: gold;
+    display: flex;
+    height: 500px;
 }
 
 .back_btn {
@@ -105,7 +112,6 @@
 }
 
 .descrip_wrap {
-    width: 500px;
     overflow-y: auto;
     
 
@@ -126,6 +132,8 @@
     background: black;
     color: crimson;
     padding-top: 15px;
+    height: 500px;
+    width: 350px;
 
 }
 
