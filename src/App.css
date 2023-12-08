@@ -170,12 +170,23 @@
 
 .search {
     text-align: center;
+    background: yellow;
+    height: 40px;
+    width: 260px;
+    display: flex;
+    font-size: 24px;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+
 }
 
 .search input {
-    height: 22px;
-    width: 200px;
+    height: 33px;
+    width: 180px;
     border: none;
+    padding-left: 8px;
+    font-size: 22px;
     border-bottom: 2px solid grey;
 }
 
