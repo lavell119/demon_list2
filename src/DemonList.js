@@ -19,6 +19,8 @@ export default function DemonList() {
           <div className="search">{searchPhrase}<input onChange={search}></input></div>
         {demons.map(demon=>
             <div className="demon-snippet" key={demons.indexOf(demon)}>
+                <div className="snippet-content">
+
                 <div className="snippet-left">
                     <img class = "demonlist_img"src={ demon.image } alt="" />
                     
@@ -32,6 +34,7 @@ export default function DemonList() {
               <span></span>
               <Link class ="more-btn" to={`/demon/${demons.indexOf(demon)}`}>More &#x27A3;</Link>
     
+                </div>
                 </div>
             </div>
             )}
