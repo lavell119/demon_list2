@@ -10,15 +10,15 @@
 }
 
 .single_demon_header {
-    background: crimson;
+    background: rgb(0, 0, 0);
     height: 5%;
     display: flex;
     align-items: center;
+    font-size: 22px;
 }
 
 .single_demon_content_wrap {
     height: 95%;
-    background: rgb(0, 0, 0);
     width: 100%;
     position: sticky;
 }
@@ -44,8 +44,8 @@
 
 .back_btn {
     width: 70px;
-    color: crimson;
-    background: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
     margin-left: 10px;
     height: 24px;
     text-align: center;
@@ -56,7 +56,8 @@
 }
 
 .back_btn a {
-    color: crimson;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
     text-decoration: none;
 }
 
@@ -82,9 +83,7 @@
     overflow-y: auto;
     flex-direction: column;
     gap: 10px;
-    color: crimson;
-    color: black;
-}
+    }
 
 .single_demon_wrapper {
     height: 100%;
@@ -121,7 +120,6 @@
 
 .single_demon_description_wrap {
    
-    color: crimson;
     width: 350px;
 
 }
@@ -179,4 +177,8 @@
     width: 200px;
     border: none;
     border-bottom: 2px solid grey;
+}
+
+.single_demon_name {
+    font-size: 29px;
 }

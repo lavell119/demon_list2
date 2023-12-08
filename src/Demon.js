@@ -4,6 +4,14 @@ import { useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRotateLeft } from '@fortawesome/free-solid-svg-icons'
+
+<FontAwesomeIcon icon="fa-solid fa-arrow-rotate-left" />
+
+
+
+
 export default function Demon() {
   const { id  } = useParams()
   const [demons, setDemons] = useState(Demons)
@@ -12,11 +20,13 @@ export default function Demon() {
     <>
     <div className="single_demon_wrapper">
     <div className="single_demon_header">
-      
+    <Link to={'../'}>
+
         <div className="back_btn">
-        <Link to={'../'}>Back</Link>
+        <FontAwesomeIcon icon={faArrowRotateLeft} />
         </div>
-      
+        </Link>
+
     </div>
     <div className="single_demon_content_wrap">
     <div className="single_demon_content">
