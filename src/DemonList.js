@@ -18,7 +18,7 @@ export default function DemonList() {
     return (
         <div className="demon-list">
           <h1>Demon List</h1>
-          <Search />
+          <Search setDemons= {setDemons}/>
           {/* <div className="search">{searchPhrase}<input onChange={search}></input></div> */}
         {demons.map(demon=>
             <div className="demon-snippet" key={demons.indexOf(demon)}>
