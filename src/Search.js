@@ -1,12 +1,14 @@
 import React from 'react'
 import { useState } from 'react';
+import Demons from './finaldemonlist2.json'
+
 
 
 
 export default function Search() {
 
     const [searchPhrase, setSearchPhrase] = useState('')
-
+    const [demons, setDemons] = useState(Demons)
 
     function search(e){
         let phrase = e.target.value
@@ -19,7 +21,7 @@ export default function Search() {
     return(
         <div className="search">
             <text>Search:</text>
-            <input id="search-input"></input>
+            <input id="search-input" onClick={search()}></input>
         </div>
     )
 
