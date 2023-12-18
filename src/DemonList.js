@@ -1,19 +1,14 @@
 import Demons from './finaldemonlist2.json'
-import { useState } from 'react';
 import { Link } from 'react-router-dom'
 import Search from './Search'
+import { useState } from 'react';
+
 
 
 export default function DemonList() {
     const [searchPhrase, setSearchPhrase] = useState('')
     const [demons, setDemons] = useState(Demons)
-    function search(e){
-      let phrase = e.target.value
-      setSearchPhrase(phrase)
-      console.log('searchPhrase= ', phrase)
-      let regex='/'+phrase+'/'
-      console.log("regex= ", regex)
-    }
+    
     
     return (
         <div className="demon-list">
