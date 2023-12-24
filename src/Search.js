@@ -16,12 +16,13 @@ export default function Search() {
         console.log('searchPhrase= ', phrase)
         let regex='/'+phrase+'/'
         console.log("regex= ", regex)
+        console.log(regex.test(searchPhrase))
       }
 
     return(
         <div className="search">
             <text>Search:</text>
-            <input id="search-input" onClick={search()}></input>
+            <input id="search-input" onClick={search}></input>
         </div>
     )
 
