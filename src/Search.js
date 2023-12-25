@@ -17,7 +17,7 @@ export default function Search() {
         let regex='/'+phrase+'/'
         console.log("regex= ", regex)
         console.log(regex.test(searchPhrase))
-      }
+      }hh
 
     return(
         <div className="search">
